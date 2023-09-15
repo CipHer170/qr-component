@@ -1,0 +1,10 @@
+.qr {
+  width: 320px;
+  height: 500px;
+  background-color: #979797;
+  &__code {
+    width: 290px;
+    object-fit: contain;
+    border-radius: 20px;
+  }
+}
