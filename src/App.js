@@ -1,4 +1,3 @@
-import BaseContainer from "./Components/BaseContainer/BaseContainer";
 import image from "./images/qr.svg";
 import "./App.scss";
 function App() {
