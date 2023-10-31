@@ -1,11 +1,13 @@
 import BaseContainer from "./Components/BaseContainer/BaseContainer";
-import image from "./images/image-qr-code.png";
+import image from "./images/qr.svg";
 import "./App.scss";
 function App() {
   return (
-    <BaseContainer>
-      <div className="qr">
-        <img src={image} alt="qr-code" className="qr__code" />
+    <div className="qr">
+      <div className="qr__container">
+        <div className="qr__code">
+          <img src={image} alt="qr-code" className="code" />
+        </div>
         <div className="qr__info">
           <h3>Improve your front-end skills by building projects</h3>
           <p>
@@ -14,7 +16,7 @@ function App() {
           </p>
         </div>
       </div>
-    </BaseContainer>
+    </div>
   );
 }
 
